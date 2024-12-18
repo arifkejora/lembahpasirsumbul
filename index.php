@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,7 +16,7 @@
 <body class="bg-gray-100">
     <!-- Hero Section -->
     <section class="relative bg-cover bg-center h-screen" style="background-image: url('images/header.webp');">
-    <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="absolute inset-0 bg-black opacity-50"></div>
         <div class="container mx-auto px-6 py-32 relative z-10">
             <h1 class="text-5xl font-bold text-white">Camping Akses Mudah Di Puncak</h1>
             <p class="text-lg text-white mt-4">Nikmati udara asli khas puncak dan akses yang mudah menuju lokasi camping</p>
@@ -27,21 +28,21 @@
             <div class="mt-12 text-white space-y-4">
                 <div class="flex items-start">
                     <i class="fas fa-check-circle text-2xl mr-4"></i>
-                    <p>100% ADEMA<br/>Nikmati udara asli khas puncak di Lembah Pasir Sumbul</p>
+                    <p>100% ADEMA<br> Nikmati udara asli khas puncak di Lembah Pasir Sumbul</p>
                 </div>
                 <div class="flex items-start">
                     <i class="fas fa-check-circle text-2xl mr-4"></i>
-                    <p>Akses Mudah<br/>Akses ke jalan raya utama mudah dan dekat, city car bisa sampai di area camping (Campervan)</p>
+                    <p>Akses Mudah<br> Akses ke jalan raya utama mudah dan dekat, city car bisa sampai di area camping (Campervan)</p>
                 </div>
                 <div class="flex items-start">
                     <i class="fas fa-check-circle text-2xl mr-4"></i>
-                    <p>Dikelilingi Pohon Pinus<br/>Rumput hijau dan pohon pinus membuat pengalaman camping anda menjadi relaksasi sendiri untuk tubuh setelah penat beraktifitas di kota</p>
+                    <p>Dikelilingi Pohon Pinus<br> Rumput hijau dan pohon pinus membuat pengalaman camping anda menjadi relaksasi sendiri untuk tubuh setelah penat beraktifitas di kota</p>
                 </div>
             </div>
         </div>
     </section>
 
-
+    <!-- Offer Section -->
     <section class="container mx-auto px-6 py-16">
         <h2 class="text-center text-3xl font-bold mb-8">Gak mau ribet bawa peralatan camping?</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -92,14 +93,12 @@
         </div>
     </section>
 
-
     <!-- Contact Section -->
     <section class="relative bg-cover bg-center h-64" style="background-image: url('images/footer.jpg');">
         <div class="absolute inset-0 bg-black opacity-50"></div>
         <div class="container mx-auto px-6 py-16 relative z-10 text-center">
             <h2 class="text-3xl font-bold text-white mb-4">Tanyakan apapun kepada kami</h2>
             <p class="text-lg text-white mb-8">Konsultasi untuk kegiatan camping kamu sekarang juga, admin kami siap membantu dan menjawab pertanyaan anda</p>
-            <!-- <button class="px-6 py-3 bg-teal-500 text-white font-semibold rounded-lg">BOOKING SEKARANG</button> -->
         </div>
     </section>
 </body>
